@@ -1,0 +1,4 @@
+interface:
+  display_name: "HiAPI 手绘动画短片"
+  short_description: "一句话生成水彩笔触、墨线抖动风格的手绘动画短片，可选 HiAPI 作词作曲"
+  default_prompt: "Use $hiapi-hand-painted-animation to turn this idea into a hand-painted animated short."

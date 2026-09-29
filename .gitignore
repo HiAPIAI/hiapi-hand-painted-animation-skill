@@ -1,0 +1,9 @@
+node_modules/
+outputs/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+__pycache__/
+*.pyc

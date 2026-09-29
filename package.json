@@ -1,0 +1,17 @@
+{
+  "name": "hiapi-hand-painted-animation-skill",
+  "version": "0.1.0",
+  "description": "Describe an idea, get a hand-painted animated short (watercolour brush, boiling ink lines, paper grain); optional lyrics and song through HiAPI",
+  "type": "module",
+  "private": true,
+  "homepage": "https://github.com/HiAPIAI/hiapi-hand-painted-animation-skill#readme",
+  "repository": { "type": "git", "url": "git+https://github.com/HiAPIAI/hiapi-hand-painted-animation-skill.git" },
+  "bin": { "hiapi-hand-painted-animation-skill": "./scripts/install.mjs" },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "check": "node --check scripts/install.mjs && node --check scripts/hiapi.mjs && node --check scripts/write-lyrics.mjs && node --check scripts/make-song.mjs && node --check scripts/patch-base.mjs && node --check scripts/embed-logo.mjs && npm test"
+  },
+  "keywords": ["hiapi", "animation", "hand-painted", "p5js", "p5-brush", "minimax-music", "lyria", "claude", "ai-agent", "skill"],
+  "license": "MIT",
+  "engines": { "node": ">=18" }
+}

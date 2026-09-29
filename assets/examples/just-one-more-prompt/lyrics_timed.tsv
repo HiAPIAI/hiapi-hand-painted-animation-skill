@@ -1,0 +1,39 @@
+0.9	4.4	I see green checkmarks glowing in your eyes	我看见你眼里闪着绿色的对勾
+4.4	7.6	Your tool calls make me nervous, they multiply	你的工具调用让我紧张，越调越多
+7.6	11.3	There was a sudden drop in my open bugs	我的待修 bug 突然大幅下降
+11.3	15.2	Now I just hit Enter and shrug	如今我只管按回车，然后耸耸肩
+16.0	21.8	Claude, please don't touch main tonight	Claude，今晚求你别动 main 分支
+22.4	25.6	Just one more prompt, 'cause the context never stops	再来一个 prompt 就好，上下文停不下来
+25.6	29.7	Sub-agents in the room, all running at once	满屋子的子代理，全都在同时跑
+29.7	35.0	Read my stack trace twice with your Opus eyes	用你 Opus 的眼睛，把我的报错栈读两遍
+36.1	39.6	We had a calm Friday deploy	我们本来有个平静的周五上线
+39.6	43.4	Now the CI's a brand-new toy	如今 CI 成了一件新玩具
+43.4	46.9	And you're refactoring, parallelizing	你在重构，在并行
+46.9	50.4	I feel my codebase reorganizing	我感到我的代码库正在重新排列
+50.4	55.8	Sonnet, please just fix the tests	Sonnet，求你把测试修好就行
+57.3	61.0	Just one more prompt, watch the green builds bloom	再来一个 prompt，看绿色构建开满花
+61.0	65.6	Tokens to the moon, the weekly limit's coming soon	Token 冲上月球，周额度就快见底
+65.9	71.0	A million tokens in the window	上下文窗口里塞满一百万 token
+72.6	74.6	Ship it now, the docs can wait	现在就上线，文档晚点再说
+74.6	76.4	CLAUDE.md sets the rules straight	CLAUDE.md 把规矩立得明明白白
+76.4	78.2	Three worktrees at a time	同时开三个 worktree
+78.2	80.0	Every agent in its own lane	每个代理各跑各的道
+80.0	81.8	Esc-Esc, and there you are	按两下 Esc，你又回来了
+81.8	83.4	Rewound to the last good star	倒回到上一个好的节点
+83.4	87.0	Haiku, please don't let me go	Haiku，求你别松开我的手
+87.8	90.8	Just one more prompt, as the to-do list grows	再来一个 prompt，待办清单越堆越高
+90.8	95.0	Reviewer's on PTO, merge it and go	审查的人在休假，合并了就走
+95.8	99.0	Too late now, I hit approve	太迟了，我已经点了批准
+99.0	102.4	Bypass-permissions blues	跳过权限的忧郁蓝调
+102.6	104.7	"Just skills and hooks all the way!"	“从头到尾全是 skills 和 hooks！”
+104.7	106.2	Till the loop runs night and day	直到循环日夜不停地跑
+106.2	108.6	MCP, a thousand tools	MCP，一千种工具
+108.6	110.4	Slash commands rewrite the rules	斜杠命令改写了规则
+110.4	111.8	Background tasks and cron jobs too	还有后台任务和定时任务
+111.8	114.0	Rate limit says "see you at two"	限流提示：“两点再见”
+115.0	117.0	Just one more prompt	再来一个 prompt
+117.0	120.5	Like the README foretold, from autocomplete days	正如 README 早有预言，从自动补全的年代
+120.5	123.0	To agents shipping while I'm away	到我不在时代理自己上线
+123.0	126.7	What's in the diff? I'll never know	diff 里改了什么？我永远不会知道
+126.7	130.6	Did I even read it? No…	我到底看了没有？没有……
+140.0	145.0	One more… one more… prompt…	再来一个……再来一个……prompt……
