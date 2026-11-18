@@ -27,6 +27,6 @@ try {
     console.log(`[${NAME}] Installing → ${dest}`);
     execFileSync('git', ['clone', '--depth', '1', REPO, dest], { stdio: 'inherit' });
   }
-  console.log(env.HIAPI_API_KEY ? `[${NAME}] HIAPI_API_KEY is set.` : `[${NAME}] HIAPI_API_KEY is not set (only needed for lyrics and songs). Get a key: https://www.hiapi.ai/en/dashboard/api-keys?utm_source=skill&utm_medium=agent&utm_campaign=hiapi-hand-painted-animation`);
+  console.log(env.HIAPI_API_KEY ? `[${NAME}] HIAPI_API_KEY is set.` : `[${NAME}] HIAPI_API_KEY is not set (only needed for lyrics and songs). Get a key: https://www.hiapi.ai/en/dashboard/api-keys`);
   console.log(`[${NAME}] Also needed: node 18+, ffmpeg, uv (Python), git, and Google Chrome or Chromium. Restart the agent if it caches skills.`);
 } catch (e) { console.error(`[${NAME}] Failed: ${e.message}`); exit(1); }

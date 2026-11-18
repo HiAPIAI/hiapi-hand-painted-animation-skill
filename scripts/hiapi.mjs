@@ -14,7 +14,7 @@ function dotenv(name) {
 export const BASE = (process.env.HIAPI_BASE_URL || dotenv('HIAPI_BASE_URL') || 'https://api.hiapi.ai').replace(/\/$/, '');
 export function apiKey() {
   const k = process.env.HIAPI_API_KEY || dotenv('HIAPI_API_KEY');
-  if (!k || k === 'your_hiapi_api_key') throw new Error('HIAPI_API_KEY is required: create one at https://www.hiapi.ai/en/dashboard/api-keys?utm_source=skill&utm_medium=agent&utm_campaign=hiapi-hand-painted-animation');
+  if (!k || k === 'your_hiapi_api_key') throw new Error('HIAPI_API_KEY is required: create one at https://www.hiapi.ai/en/dashboard/api-keys');
   return k;
 }
 
