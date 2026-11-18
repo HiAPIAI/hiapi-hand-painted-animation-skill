@@ -5,7 +5,7 @@
 语言：[English](README.md) | [简体中文](README.zh-CN.md) · AI Agent？先读 [llms-install.md](llms-install.md)。
 
 一个给 Claude Code、Codex 等编程 Agent 用的技能。它会写分镜、用代码逐镜画出来、自己检查画面，最后渲染成 MP4，
-全片统一一种画风：水彩笔触、微微抖动的墨线、纸张质感。想要一首歌？它会写好歌词，通过 [HiAPI](https://www.hiapi.ai/zh)
+全片统一一种画风：水彩笔触、微微抖动的墨线、纸张质感。想要一首歌？它会写好歌词，通过 [HiAPI](https://www.hiapi.ai/zh?utm_source=github&utm_medium=readme&utm_campaign=hiapi-hand-painted-animation)
 让模型唱出来，再把每一句对齐节拍、配上字幕。
 
 ## 用这个技能做的示例
@@ -22,7 +22,7 @@ https://github.com/user-attachments/assets/17f75db1-cbd7-48ab-84fc-8d7c246716b6
 
 ```bash
 npx -y github:HiAPIAI/hiapi-hand-painted-animation-skill -y
-export HIAPI_API_KEY=你的key   # 只有写词作曲才需要：https://www.hiapi.ai/zh/dashboard/api-keys
+export HIAPI_API_KEY=你的key   # 只有写词作曲才需要：https://www.hiapi.ai/zh/dashboard/api-keys?utm_source=github&utm_medium=readme&utm_campaign=hiapi-hand-painted-animation
 ```
 
 需要 node 18+、ffmpeg、[uv](https://docs.astral.sh/uv/)、git，以及 Google Chrome 或 Chromium。

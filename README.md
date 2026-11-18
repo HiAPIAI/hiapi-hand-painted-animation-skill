@@ -6,7 +6,7 @@ Languages: [English](README.md) | [简体中文](README.zh-CN.md) · AI agent? R
 
 An agent skill for Claude Code, Codex and other coding agents. It writes the storyboard, paints every shot in code,
 checks its own frames, and renders an MP4 in one consistent look: watercolour brush, wobbling ink lines, paper grain.
-Want a song? It writes the lyrics and gets them sung through [HiAPI](https://www.hiapi.ai/en), then times every line
+Want a song? It writes the lyrics and gets them sung through [HiAPI](https://www.hiapi.ai/en?utm_source=github&utm_medium=readme&utm_campaign=hiapi-hand-painted-animation), then times every line
 to the beat, with subtitles.
 
 ## Made with this skill
@@ -23,7 +23,7 @@ https://github.com/user-attachments/assets/17f75db1-cbd7-48ab-84fc-8d7c246716b6
 
 ```bash
 npx -y github:HiAPIAI/hiapi-hand-painted-animation-skill -y
-export HIAPI_API_KEY=your_key   # only for lyrics and songs: https://www.hiapi.ai/en/dashboard/api-keys
+export HIAPI_API_KEY=your_key   # only for lyrics and songs: https://www.hiapi.ai/en/dashboard/api-keys?utm_source=github&utm_medium=readme&utm_campaign=hiapi-hand-painted-animation
 ```
 
 Needs node 18+, ffmpeg, [uv](https://docs.astral.sh/uv/), git and Google Chrome or Chromium.

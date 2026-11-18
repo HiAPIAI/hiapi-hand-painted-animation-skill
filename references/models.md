@@ -1,6 +1,6 @@
 # Models used through HiAPI
 
-All are called on `https://api.hiapi.ai`. Check live prices at https://www.hiapi.ai/en/pricing before quoting a cost.
+All are called on `https://api.hiapi.ai`. Check live prices at https://www.hiapi.ai/en/pricing?utm_source=skill&utm_medium=agent&utm_campaign=hiapi-hand-painted-animation before quoting a cost.
 
 ## Lyrics (text): `POST /v1/messages` (Anthropic format)
 `claude-opus-5-5` by default (`--model=` to change). One call ≈ 600 input + 1.5k output tokens.
